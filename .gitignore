@@ -1,0 +1,5 @@
+# resources
+**/*.svg
+
+# system files
+.DS_Store
