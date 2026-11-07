@@ -1,0 +1,79 @@
+name: Update contribution stars
+
+on:
+  schedule:
+    - cron: "17 16 * * *" # 北京时间每天 00:17
+  workflow_dispatch:
+    inputs:
+      period:
+        description: Time range
+        type: choice
+        options:
+          - calendar
+          - rolling
+        default: calendar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-stars-output
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v7
+
+      - name: Checkout Astribution
+        uses: actions/checkout@v7
+        with:
+          repository: LynnChrysteiin/astribution
+          ref: main
+          path: .astribution
+          persist-credentials: false
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Generate SVGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USER: ${{ github.repository_owner }}
+          PERIOD: ${{ inputs.period || 'calendar' }}
+        run: |
+          python .astribution/astribution.py \
+            --username "$PROFILE_USER" \
+            --period "$PERIOD" \
+            --brightness adaptive \
+            --supplement-distant \
+            --constellations auto \
+            --jitter-percent 90 \
+            --grid \
+            --background transparent \
+            --output-dir "$RUNNER_TEMP/astribution-generated"
+
+      - name: Publish SVGs to output branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          destination="$RUNNER_TEMP/astribution-output"
+          if git ls-remote --exit-code --heads origin output > /dev/null; then
+            git fetch origin output
+            git worktree add -B output "$destination" FETCH_HEAD
+          else
+            git worktree add --detach "$destination" HEAD
+            git -C "$destination" switch --orphan output
+          fi
+          cp "$RUNNER_TEMP/astribution-generated/contributions-light.svg" "$destination/"
+          cp "$RUNNER_TEMP/astribution-generated/contributions-dark.svg" "$destination/"
+          git -C "$destination" config user.name "github-actions[bot]"
+          git -C "$destination" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$destination" add contributions-light.svg contributions-dark.svg
+          if ! git -C "$destination" diff --cached --quiet; then
+            git -C "$destination" commit -m "chore(output): 更新贡献星图"
+            git -C "$destination" push origin HEAD:output
+          fi
