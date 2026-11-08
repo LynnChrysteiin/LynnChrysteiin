@@ -10,7 +10,7 @@
 <img alt="主页访问计数" width="200px" src="https://count.getloli.com/@astralux-page?theme=rule34&padding=4&offset=0&align=top&scale=1&pixelated=1&darkmode=auto"/>
 </p>
 
-<h1 align="center">Hi, I'm AstraluX ✨</h1>
+<h1 align="center">Hi, I'm AstraluX. ✨</h1>
 
 <p align="center">
   <a href="#repos">仓库</a> ·
