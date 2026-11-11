@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="912" height="165.6" viewBox="0 0 912 165.6" role="img" aria-labelledby="title desc">
-<title id="title">LynnChrysteiin · contribution observatory</title><desc id="desc">2026-01-01 to 2026-12-31; 87 contributions. 53 weekly columns, seven square date cells per column. 20 active days shown; 1 constellations.</desc>
-<metadata>{&quot;username&quot;: &quot;LynnChrysteiin&quot;, &quot;source&quot;: &quot;https://api.github.com/graphql&quot;, &quot;from&quot;: &quot;2026-01-01&quot;, &quot;to&quot;: &quot;2026-12-31&quot;, &quot;period&quot;: &quot;calendar&quot;, &quot;totalContributions&quot;: 87, &quot;weeks&quot;: 53, &quot;activeDays&quot;: 20, &quot;constellations&quot;: 1, &quot;targetConstellations&quot;: 1, &quot;brightness&quot;: &quot;adaptive&quot;, &quot;supplementDistant&quot;: true, &quot;supplementedConstellations&quot;: 0, &quot;jitterPercent&quot;: 90.0, &quot;grid&quot;: true, &quot;background&quot;: &quot;transparent&quot;}</metadata>
+<title id="title">LynnChrysteiin · contribution observatory</title><desc id="desc">2026-01-01 to 2026-12-31; 95 contributions. 53 weekly columns, seven square date cells per column. 22 active days shown; 1 constellations.</desc>
+<metadata>{&quot;username&quot;: &quot;LynnChrysteiin&quot;, &quot;source&quot;: &quot;https://api.github.com/graphql&quot;, &quot;from&quot;: &quot;2026-01-01&quot;, &quot;to&quot;: &quot;2026-12-31&quot;, &quot;period&quot;: &quot;calendar&quot;, &quot;totalContributions&quot;: 95, &quot;weeks&quot;: 53, &quot;activeDays&quot;: 22, &quot;constellations&quot;: 1, &quot;targetConstellations&quot;: 1, &quot;brightness&quot;: &quot;adaptive&quot;, &quot;supplementDistant&quot;: true, &quot;supplementedConstellations&quot;: 0, &quot;jitterPercent&quot;: 90.0, &quot;grid&quot;: true, &quot;background&quot;: &quot;transparent&quot;}</metadata>
 <style>.scene{animation:scene 11.6s linear infinite}
 @keyframes scene{0%,80.1724%{opacity:1}93.1034%,100%{opacity:0}}
 .scan{opacity:0;animation:scan 11.6s linear infinite}
@@ -39,25 +39,27 @@
 .s15{animation:r15 11.6s linear infinite}
 @keyframes r15{0%,14.2992%{opacity:0}17.6107%,100%{opacity:1}}
 .s16{animation:r16 11.6s linear infinite}
-@keyframes r16{0%,13.5935%{opacity:0}16.4815%,100%{opacity:1}}
+@keyframes r16{0%,25.1598%{opacity:0}27.1383%,100%{opacity:1}}
 .s17{animation:r17 11.6s linear infinite}
-@keyframes r17{0%,15.2794%{opacity:0}18.9886%,100%{opacity:1}}
+@keyframes r17{0%,13.5935%{opacity:0}16.4815%,100%{opacity:1}}
 .s18{animation:r18 11.6s linear infinite}
-@keyframes r18{0%,15.2190%{opacity:0}17.7192%,100%{opacity:1}}
+@keyframes r18{0%,15.2794%{opacity:0}18.9886%,100%{opacity:1}}
 .s19{animation:r19 11.6s linear infinite}
-@keyframes r19{0%,21.5581%{opacity:0}25.0278%,100%{opacity:1}}
+@keyframes r19{0%,15.2190%{opacity:0}17.7192%,100%{opacity:1}}
+.s20{animation:r20 11.6s linear infinite}
+@keyframes r20{0%,21.5581%{opacity:0}25.0278%,100%{opacity:1}}
+.s21{animation:r21 11.6s linear infinite}
+@keyframes r21{0%,15.7437%{opacity:0}18.9787%,100%{opacity:1}}
 .e0{animation:e0 11.6s linear infinite}
 @keyframes e0{0%,38.7931%{stroke-dashoffset:31.19647;opacity:0}38.8793%{opacity:.6}43.6782%,100%{stroke-dashoffset:0;opacity:.6}}
 .e1{animation:e1 11.6s linear infinite}
-@keyframes e1{0%,38.7931%{stroke-dashoffset:38.33252;opacity:0}38.8793%{opacity:.6}43.6782%,100%{stroke-dashoffset:0;opacity:.6}}
+@keyframes e1{0%,38.7931%{stroke-dashoffset:39.20000;opacity:0}38.8793%{opacity:.6}43.6782%,100%{stroke-dashoffset:0;opacity:.6}}
 .e2{animation:e2 11.6s linear infinite}
 @keyframes e2{0%,43.6782%{stroke-dashoffset:29.23422;opacity:0}43.7644%{opacity:.6}48.5632%,100%{stroke-dashoffset:0;opacity:.6}}
 .e3{animation:e3 11.6s linear infinite}
-@keyframes e3{0%,43.6782%{stroke-dashoffset:30.34247;opacity:0}43.7644%{opacity:.6}48.5632%,100%{stroke-dashoffset:0;opacity:.6}}
+@keyframes e3{0%,43.6782%{stroke-dashoffset:30.02115;opacity:0}43.7644%{opacity:.6}48.5632%,100%{stroke-dashoffset:0;opacity:.6}}
 .e4{animation:e4 11.6s linear infinite}
 @keyframes e4{0%,48.5632%{stroke-dashoffset:26.08332;opacity:0}48.6494%{opacity:.6}53.4483%,100%{stroke-dashoffset:0;opacity:.6}}
-.e5{animation:e5 11.6s linear infinite}
-@keyframes e5{0%,48.5632%{stroke-dashoffset:30.02115;opacity:0}48.6494%{opacity:.6}53.4483%,100%{stroke-dashoffset:0;opacity:.6}}
 @media(prefers-reduced-motion:reduce){.scene,.star,.edge,.scan{animation:none!important}.scene,.star{opacity:1}.edge{opacity:.6;stroke-dashoffset:0}.scan{opacity:0}}</style>
 <defs><filter id="glow" x="-200%" y="-200%" width="500%" height="500%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.920"/></filter>
 <radialGradient id="stellar-0"><stop offset="0" stop-color="#31445c" stop-opacity="1"/><stop offset=".18" stop-color="#31445c" stop-opacity=".95"/><stop offset=".42" stop-color="#7993b0" stop-opacity=".48"/><stop offset=".7" stop-color="#7993b0" stop-opacity=".12"/><stop offset="1" stop-color="#7993b0" stop-opacity="0"/></radialGradient>
@@ -106,11 +108,10 @@
 <g class="scan"><rect width="848" height="9.6" fill="url(#beam)"/><path d="M0 0H848" stroke="url(#scan-edge)" stroke-width=".65"/></g></g>
 <g class="scene">
 <path class="edge e0" d="M669.682407 91.116821L642.202300 105.883783" data-from="2026-10-16" data-to="2026-10-10" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="31.19647" stroke-dashoffset="0" opacity=".6"/>
-<path class="edge e1" d="M669.682407 91.116821L683.706166 55.441675" data-from="2026-10-16" data-to="2026-10-21" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="38.33252" stroke-dashoffset="0" opacity=".6"/>
+<path class="edge e1" d="M669.682407 91.116821L705.903715 76.128253" data-from="2026-10-16" data-to="2026-11-05" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="39.20000" stroke-dashoffset="0" opacity=".6"/>
 <path class="edge e2" d="M642.202300 105.883783L616.228285 92.467732" data-from="2026-10-10" data-to="2026-09-25" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="29.23422" stroke-dashoffset="0" opacity=".6"/>
-<path class="edge e3" d="M683.706166 55.441675L705.903715 76.128253" data-from="2026-10-21" data-to="2026-11-05" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="30.34247" stroke-dashoffset="0" opacity=".6"/>
+<path class="edge e3" d="M705.903715 76.128253L715.908021 104.433435" data-from="2026-11-05" data-to="2026-11-07" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="30.02115" stroke-dashoffset="0" opacity=".6"/>
 <path class="edge e4" d="M616.228285 92.467732L593.333936 104.965265" data-from="2026-09-25" data-to="2026-09-19" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="26.08332" stroke-dashoffset="0" opacity=".6"/>
-<path class="edge e5" d="M705.903715 76.128253L715.908021 104.433435" data-from="2026-11-05" data-to="2026-11-07" fill="none" stroke="#7083ac" stroke-width="0.700" stroke-linecap="round" stroke-dasharray="30.02115" stroke-dashoffset="0" opacity=".6"/>
 <g class="star s0" transform="translate(338.092553 81.413490)" data-date="2026-05-29" data-count="1" data-week="21" data-weekday="5"><title>2026-05-29: 1 contributions</title><circle r="1.9742" fill="#d89463" opacity="0.0698" filter="url(#glow)"/><circle r="2.3218" fill="url(#stellar-2)" opacity="0.3054"/><circle r="0.5179" fill="#93542e" opacity="0.3208" filter="url(#core-softness)"/></g>
 <g class="star s1" transform="translate(425.724784 45.501539)" data-date="2026-06-30" data-count="1" data-week="26" data-weekday="2"><title>2026-06-30: 1 contributions</title><circle r="1.9742" fill="#7993b0" opacity="0.0698" filter="url(#glow)"/><circle r="2.3218" fill="url(#stellar-0)" opacity="0.3054"/><circle r="0.5179" fill="#31445c" opacity="0.3208" filter="url(#core-softness)"/></g>
 <g class="star s2" transform="translate(519.679986 61.755378)" data-date="2026-08-12" data-count="1" data-week="32" data-weekday="3"><title>2026-08-12: 1 contributions</title><circle r="1.9742" fill="#7993b0" opacity="0.0698" filter="url(#glow)"/><circle r="2.3218" fill="url(#stellar-0)" opacity="0.3054"/><circle r="0.5179" fill="#31445c" opacity="0.3208" filter="url(#core-softness)"/></g>
@@ -127,8 +128,10 @@
 <g class="star s13" transform="translate(665.146722 5.612317)" data-date="2026-10-11" data-count="2" data-week="41" data-weekday="0"><title>2026-10-11: 2 contributions</title><circle r="2.2912" fill="#7993b0" opacity="0.0814" filter="url(#glow)"/><circle r="2.5927" fill="url(#stellar-0)" opacity="0.3488"/><circle r="0.5784" fill="#31445c" opacity="0.3633" filter="url(#core-softness)"/></g>
 <g class="star s14" transform="translate(669.682407 91.116821)" data-date="2026-10-16" data-count="17" data-week="41" data-weekday="5"><title>2026-10-16: 17 contributions</title><circle r="9.2160" fill="#55a0ca" opacity="0.2550" filter="url(#glow)"/><circle r="6.6560" fill="url(#stellar-1)" opacity="1.0000"/><circle class="hero-glow" r="1.6640" fill="#235b82" opacity="0.9500" filter="url(#hero-glow)"/><circle r="1.4848" fill="#235b82" opacity="1.0000" filter="url(#core-softness)"/></g>
 <g class="star s15" transform="translate(683.706166 55.441675)" data-date="2026-10-21" data-count="12" data-week="42" data-weekday="3"><title>2026-10-21: 12 contributions</title><circle r="6.4554" fill="#d89463" opacity="0.1971" filter="url(#glow)"/><circle r="5.3016" fill="url(#stellar-2)" opacity="0.7829"/><circle class="hero-glow" r="1.3254" fill="#93542e" opacity="0.8053" filter="url(#hero-glow)"/><circle r="1.1827" fill="#93542e" opacity="0.7878" filter="url(#core-softness)"/></g>
-<g class="star s16" transform="translate(712.456896 43.786960)" data-date="2026-11-03" data-count="3" data-week="44" data-weekday="2"><title>2026-11-03: 3 contributions</title><circle r="2.6262" fill="#7993b0" opacity="0.0929" filter="url(#glow)"/><circle r="2.8635" fill="url(#stellar-0)" opacity="0.3922"/><circle r="0.6388" fill="#31445c" opacity="0.4057" filter="url(#core-softness)"/></g>
-<g class="star s17" transform="translate(705.903715 76.128253)" data-date="2026-11-05" data-count="4" data-week="44" data-weekday="4"><title>2026-11-05: 4 contributions</title><circle r="2.9793" fill="#55a0ca" opacity="0.1045" filter="url(#glow)"/><circle r="3.1344" fill="url(#stellar-1)" opacity="0.4356"/><circle r="0.6992" fill="#235b82" opacity="0.4482" filter="url(#core-softness)"/></g>
-<g class="star s18" transform="translate(715.908021 104.433435)" data-date="2026-11-07" data-count="3" data-week="44" data-weekday="6"><title>2026-11-07: 3 contributions</title><circle r="2.6262" fill="#7993b0" opacity="0.0929" filter="url(#glow)"/><circle r="2.8635" fill="url(#stellar-0)" opacity="0.3922"/><circle r="0.6388" fill="#31445c" opacity="0.4300" filter="url(#core-softness)"/></g>
-<g class="star s19" transform="translate(731.694342 11.819815)" data-date="2026-11-08" data-count="1" data-week="45" data-weekday="0"><title>2026-11-08: 1 contributions</title><circle r="1.9742" fill="#7993b0" opacity="0.0698" filter="url(#glow)"/><circle r="2.3218" fill="url(#stellar-0)" opacity="0.3054"/><circle r="0.5179" fill="#31445c" opacity="0.3208" filter="url(#core-softness)"/></g>
+<g class="star s16" transform="translate(693.251563 39.023605)" data-date="2026-10-27" data-count="3" data-week="43" data-weekday="2"><title>2026-10-27: 3 contributions</title><circle r="2.6262" fill="#55a0ca" opacity="0.0929" filter="url(#glow)"/><circle r="2.8635" fill="url(#stellar-1)" opacity="0.3922"/><circle r="0.6388" fill="#235b82" opacity="0.4057" filter="url(#core-softness)"/></g>
+<g class="star s17" transform="translate(712.456896 43.786960)" data-date="2026-11-03" data-count="3" data-week="44" data-weekday="2"><title>2026-11-03: 3 contributions</title><circle r="2.6262" fill="#7993b0" opacity="0.0929" filter="url(#glow)"/><circle r="2.8635" fill="url(#stellar-0)" opacity="0.3922"/><circle r="0.6388" fill="#31445c" opacity="0.4057" filter="url(#core-softness)"/></g>
+<g class="star s18" transform="translate(705.903715 76.128253)" data-date="2026-11-05" data-count="4" data-week="44" data-weekday="4"><title>2026-11-05: 4 contributions</title><circle r="2.9793" fill="#55a0ca" opacity="0.1045" filter="url(#glow)"/><circle r="3.1344" fill="url(#stellar-1)" opacity="0.4356"/><circle r="0.6992" fill="#235b82" opacity="0.4482" filter="url(#core-softness)"/></g>
+<g class="star s19" transform="translate(715.908021 104.433435)" data-date="2026-11-07" data-count="3" data-week="44" data-weekday="6"><title>2026-11-07: 3 contributions</title><circle r="2.6262" fill="#7993b0" opacity="0.0929" filter="url(#glow)"/><circle r="2.8635" fill="url(#stellar-0)" opacity="0.3922"/><circle r="0.6388" fill="#31445c" opacity="0.4300" filter="url(#core-softness)"/></g>
+<g class="star s20" transform="translate(731.694342 11.819815)" data-date="2026-11-08" data-count="1" data-week="45" data-weekday="0"><title>2026-11-08: 1 contributions</title><circle r="1.9742" fill="#7993b0" opacity="0.0698" filter="url(#glow)"/><circle r="2.3218" fill="url(#stellar-0)" opacity="0.3054"/><circle r="0.5179" fill="#31445c" opacity="0.3208" filter="url(#core-softness)"/></g>
+<g class="star s21" transform="translate(725.111084 62.668879)" data-date="2026-11-11" data-count="5" data-week="45" data-weekday="3"><title>2026-11-11: 5 contributions</title><circle r="3.3505" fill="#55a0ca" opacity="0.1161" filter="url(#glow)"/><circle r="3.4053" fill="url(#stellar-1)" opacity="0.4791"/><circle r="0.7596" fill="#235b82" opacity="0.4906" filter="url(#core-softness)"/></g>
 </g></svg></svg>
